@@ -13,6 +13,15 @@
 		30793B5C2756975C0053DA95 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 30793B5B2756975C0053DA95 /* Assets.xcassets */; };
 		30793B5F2756975C0053DA95 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 30793B5E2756975C0053DA95 /* Preview Assets.xcassets */; };
 		30793B622756975C0053DA95 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30793B602756975C0053DA95 /* LaunchScreen.storyboard */; };
+		30793B6C275697840053DA95 /* SpriteKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30793B6B275697840053DA95 /* SpriteKit.framework */; };
+		30793B702756A7910053DA95 /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30793B6F2756A7910053DA95 /* Game.swift */; };
+		30793B832756B3570053DA95 /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30793B822756B3570053DA95 /* CustomButton.swift */; };
+		30793B862756B55F0053DA95 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30793B852756B55F0053DA95 /* GameScene.swift */; };
+		30793B9027573F9C0053DA95 /* MyParticle.sks in Resources */ = {isa = PBXBuildFile; fileRef = 30793B8E27573F9C0053DA95 /* MyParticle.sks */; };
+		30793B9127573F9C0053DA95 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 30793B8F27573F9C0053DA95 /* Assets.xcassets */; };
+		30793B942757C03C0053DA95 /* Instructions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30793B932757C03B0053DA95 /* Instructions.swift */; };
+		30793B972757C0500053DA95 /* ScoreBoard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30793B962757C0500053DA95 /* ScoreBoard.swift */; };
+		30793B9C2757C3EA0053DA95 /* GetData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30793B9B2757C3EA0053DA95 /* GetData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +33,15 @@
 		30793B5E2756975C0053DA95 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		30793B612756975C0053DA95 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		30793B632756975C0053DA95 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		30793B6B275697840053DA95 /* SpriteKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SpriteKit.framework; path = System/Library/Frameworks/SpriteKit.framework; sourceTree = SDKROOT; };
+		30793B6F2756A7910053DA95 /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
+		30793B822756B3570053DA95 /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
+		30793B852756B55F0053DA95 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		30793B8E27573F9C0053DA95 /* MyParticle.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = MyParticle.sks; sourceTree = "<group>"; };
+		30793B8F27573F9C0053DA95 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		30793B932757C03B0053DA95 /* Instructions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Instructions.swift; sourceTree = "<group>"; };
+		30793B962757C0500053DA95 /* ScoreBoard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreBoard.swift; sourceTree = "<group>"; };
+		30793B9B2757C3EA0053DA95 /* GetData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +49,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				30793B6C275697840053DA95 /* SpriteKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +61,7 @@
 			children = (
 				30793B54275697590053DA95 /* A4 */,
 				30793B53275697590053DA95 /* Products */,
+				30793B6A275697840053DA95 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,9 +76,11 @@
 		30793B54275697590053DA95 /* A4 */ = {
 			isa = PBXGroup;
 			children = (
+				30793B9A2757C3C80053DA95 /* Classes */,
+				30793B732756B2850053DA95 /* Components */,
+				30793B6E2756A76D0053DA95 /* Views */,
 				30793B55275697590053DA95 /* AppDelegate.swift */,
 				30793B57275697590053DA95 /* SceneDelegate.swift */,
-				30793B59275697590053DA95 /* ContentView.swift */,
 				30793B5B2756975C0053DA95 /* Assets.xcassets */,
 				30793B602756975C0053DA95 /* LaunchScreen.storyboard */,
 				30793B632756975C0053DA95 /* Info.plist */,
@@ -73,6 +95,44 @@
 				30793B5E2756975C0053DA95 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		30793B6A275697840053DA95 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				30793B6B275697840053DA95 /* SpriteKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		30793B6E2756A76D0053DA95 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				30793B59275697590053DA95 /* ContentView.swift */,
+				30793B6F2756A7910053DA95 /* Game.swift */,
+				30793B932757C03B0053DA95 /* Instructions.swift */,
+				30793B962757C0500053DA95 /* ScoreBoard.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		30793B732756B2850053DA95 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				30793B822756B3570053DA95 /* CustomButton.swift */,
+				30793B8E27573F9C0053DA95 /* MyParticle.sks */,
+				30793B8F27573F9C0053DA95 /* Assets.xcassets */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		30793B9A2757C3C80053DA95 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				30793B852756B55F0053DA95 /* GameScene.swift */,
+				30793B9B2757C3EA0053DA95 /* GetData.swift */,
+			);
+			path = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,6 +195,8 @@
 				30793B622756975C0053DA95 /* LaunchScreen.storyboard in Resources */,
 				30793B5F2756975C0053DA95 /* Preview Assets.xcassets in Resources */,
 				30793B5C2756975C0053DA95 /* Assets.xcassets in Resources */,
+				30793B9027573F9C0053DA95 /* MyParticle.sks in Resources */,
+				30793B9127573F9C0053DA95 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -145,9 +207,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				30793B942757C03C0053DA95 /* Instructions.swift in Sources */,
+				30793B862756B55F0053DA95 /* GameScene.swift in Sources */,
 				30793B56275697590053DA95 /* AppDelegate.swift in Sources */,
 				30793B58275697590053DA95 /* SceneDelegate.swift in Sources */,
 				30793B5A275697590053DA95 /* ContentView.swift in Sources */,
+				30793B702756A7910053DA95 /* Game.swift in Sources */,
+				30793B832756B3570053DA95 /* CustomButton.swift in Sources */,
+				30793B972757C0500053DA95 /* ScoreBoard.swift in Sources */,
+				30793B9C2757C3EA0053DA95 /* GetData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
