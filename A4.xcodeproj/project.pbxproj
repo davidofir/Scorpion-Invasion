@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		300FA02C279E809D0099C6BD /* documentation in Resources */ = {isa = PBXBuildFile; fileRef = 300FA02B279E809D0099C6BD /* documentation */; };
 		30793B56275697590053DA95 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30793B55275697590053DA95 /* AppDelegate.swift */; };
 		30793B58275697590053DA95 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30793B57275697590053DA95 /* SceneDelegate.swift */; };
 		30793B5A275697590053DA95 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30793B59275697590053DA95 /* ContentView.swift */; };
@@ -26,7 +25,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		300FA02B279E809D0099C6BD /* documentation */ = {isa = PBXFileReference; lastKnownFileType = folder; name = documentation; path = ../../../../../documentation; sourceTree = "<group>"; };
+		300FA02E279E81BE0099C6BD /* Screen Shot 2022-01-24 at 1.19.47 AM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screen Shot 2022-01-24 at 1.19.47 AM.png"; sourceTree = "<group>"; };
+		300FA02F279E81BE0099C6BD /* Screen Recording 2022-01-24 at 1.21.42 AM.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = "Screen Recording 2022-01-24 at 1.21.42 AM.mov"; sourceTree = "<group>"; };
 		30793B52275697590053DA95 /* A4.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = A4.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		30793B55275697590053DA95 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		30793B57275697590053DA95 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -58,10 +58,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		300FA02D279E81BE0099C6BD /* documentation */ = {
+			isa = PBXGroup;
+			children = (
+				300FA02E279E81BE0099C6BD /* Screen Shot 2022-01-24 at 1.19.47 AM.png */,
+				300FA02F279E81BE0099C6BD /* Screen Recording 2022-01-24 at 1.21.42 AM.mov */,
+			);
+			path = documentation;
+			sourceTree = "<group>";
+		};
 		30793B49275697590053DA95 = {
 			isa = PBXGroup;
 			children = (
-				300FA02B279E809D0099C6BD /* documentation */,
 				30793B54275697590053DA95 /* A4 */,
 				30793B53275697590053DA95 /* Products */,
 				30793B6A275697840053DA95 /* Frameworks */,
@@ -79,6 +87,7 @@
 		30793B54275697590053DA95 /* A4 */ = {
 			isa = PBXGroup;
 			children = (
+				300FA02D279E81BE0099C6BD /* documentation */,
 				30793B9A2757C3C80053DA95 /* Classes */,
 				30793B732756B2850053DA95 /* Components */,
 				30793B6E2756A76D0053DA95 /* Views */,
@@ -200,7 +209,6 @@
 				30793B5C2756975C0053DA95 /* Assets.xcassets in Resources */,
 				30793B9027573F9C0053DA95 /* MyParticle.sks in Resources */,
 				30793B9127573F9C0053DA95 /* Assets.xcassets in Resources */,
-				300FA02C279E809D0099C6BD /* documentation in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
